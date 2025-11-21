@@ -1,0 +1,15 @@
+# Dependencias Python para HTTPS Interceptor
+
+# Framework de interfaz gráfica
+kivy==2.2.1
+
+# Peticiones HTTP
+requests>=2.31.0
+urllib3>=2.0.0
+certifi>=2023.7.22
+
+# Certificados SSL (opcional para interceptación avanzada)
+pyOpenSSL>=23.2.0
+
+# Utilidades
+python-dateutil>=2.8.2
